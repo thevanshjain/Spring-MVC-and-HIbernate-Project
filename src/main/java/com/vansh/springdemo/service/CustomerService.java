@@ -1,12 +1,13 @@
-package com.vansh.springdemo.dao;
+package com.vansh.springdemo.service;
 
 import com.vansh.springdemo.entity.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
-    public List<Customer> getCustomers();
+    List<Customer> getCustomers();
+
 
     void saveCustomer(Customer customer);
 }
